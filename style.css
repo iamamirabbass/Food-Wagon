@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "opensans";
+    src: url(assets/Open_Sans/static/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'source-sans-pro';
+    src: url(assets/source-sans-pro/SourceSansPro-Regular.ttf)
+}
+.navbar-background{
+    background-color: white !important ;
+
+}
+.container{ 
+    background-color: white;
+
+    
+}
+.navbar-address{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center  ;
+}
+.navbar-text{
+    gap: 4px;
+}
+.navbar-search-icon{
+    position: absolute;
+    padding-top: 7px;
+    padding-left: 10px;
+    color: #FFB30E;
+
+}
+.form-control{
+    padding-left: 2rem;
+    vertical-align: middle;
+    border: none;
+    background-color: white;
+}
+    .form-control::placeholder{
+        font-family: 'opensans';
+        font-weight: 700px;
+        font-size: 15px;
+        line-height: 18px;
+        color: #424242;
+    }
+
+.navbar-address-text1{
+        font-size:'source-sans-pro';
+        font-weight: 900px;
+        color: #424242;
+    }
+.navbar-address-text2{
+    font-family: "source-sans-pro";
+    color: black;
+}
+.navbar-address-text3{
+    font-family: 'opensans';
+color: #424242;
+}
+.navbar-color{
+    background-color: #ffff;
+}
+.nav-bar-button{
+    padding-top: 7px;
+    padding-right:  30px;
+    padding-bottom:  7px;
+    padding-left: 30px;
+    color: #FFB30E;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 40px 0px #FFAE004A;
+    box-shadow: 0px 5px 10px 0p #FFAE0042;
+
+}
+/* Hero-section */
+
+.header{
+      /* width: 1332px;  */
+     width: 1335px;  
+     height: 661px;  
+    background-color: #FFB30E !important;
+    
+
+}
+.hero-section-text-1{
+    font-family: 'opensans';
+     font-size: 60px;
+    color: white;
+}
+.hero-section-text-2{
+    font-family: 'source-sans-pro';
+    font-size: 22px;
+}
+.header-image-2 img{
+    height: 505px;
+    width: 604px;
+    position: absolute;
+}
+
+    .header-row-1{
+    
+    align-items: center;
+    margin-top: 190px;
+    margin-left: 50px;
+    }
+
+    /* nav-tab */
+    .nav-tab{
+        background-color: white;
+    height: 194.44px;
+    width:656px;
+    border-radius: 10px;
+    padding: 10px;
+    }
+    
+    .nav-tab-search{
+        padding-left: 2rem;
+        vertical-align: middle;
+        border: none;
+        background-color:#F5F5F5;
+        position: absolute;
+        padding-top:15px;
+        padding-right:150px;
+        padding-bottom:10px;
+        padding-top:7px;
+        margin-top: 80px;
+        border-radius: 8px;
+        margin-left: 10px;
+    }
+    .nav-tab-icon{
+        margin-top: 80px;
+        margin-left: 20px;
+        position: absolute;
+    }
+    
