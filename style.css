@@ -93,9 +93,15 @@ color: #424242;
     font-size: 22px;
 }
 .header-image-2 img{
-    height: 505px;
+    /* height: 505px;
     width: 604px;
+    position: absolute; */
+    position: relative;
+  height: 500px;
+}
+.bowl{
     position: absolute;
+  bottom: 0px;
 }
 
     .header-row-1{
@@ -129,8 +135,116 @@ color: #424242;
         margin-left: 10px;
     }
     .nav-tab-icon{
-        margin-top: 80px;
+    position:absolute;
+    padding-top: 50px;
+    padding-left: 10;
+    color: #FFB30E;
+      
+        /* margin-top: 80px;
         margin-left: 20px;
-        position: absolute;
-    }
+        position: absolute; */
+    } 
+    .nav-tab-delivery-button{
+        background-color: rgba(241, 114, 40, 0.1) !important;
+        color: rgba(241, 114, 40, 1) !important;
+        font-family: 'opensans';  
+    }  
     
+    .hello {
+        position: absolute;
+      }
+      
+      .img0 {
+        position: relative;
+        height: 500px;
+      }
+      
+      .hello1 {
+        position: absolute;
+        bottom: 0px;
+      }
+      
+      .deal {
+        position: absolute;
+        bottom: 0;
+      }
+      
+      .flex-center {
+        justify-content: space-between;
+        align-items: center;
+        line-height: 5px;
+      }
+      .badge {
+        background-color: orange;
+      }
+      
+      .cards {
+        justify-content: center;
+      }
+      
+      .card-border {
+        border: none;
+      }
+      
+      .btn-danger {
+        background-color: #fdbc30 !important;
+        border: none !important;
+        &:hover {
+          background-color: white !important;
+          color: #fdbc30 !important ;
+        }
+      }
+      
+      .bgc {
+        background-color: orange;
+      }
+      
+      .nav0 {
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .bg-holder {
+        background-image: url(./Assets/assets/images/cta-one-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      
+      .hr-vertical {
+        border-left: 2px solid #cfcfcf;
+      }
+
+
+
+      .rect {
+  background-color: white;
+  height: 30%;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.colo1 {
+  height: 500px;
+  align-items: center;
+}
+
+.content {
+  position: relative;
+}
+.pin {
+  position: absolute;
+  margin: 10px;
+  color: #f17228;
+}
+
+.btn0 {
+  color: white;
+  background: orange;
+}
+
+.btn0:hover {
+  background-color: white;
+  color: orange;
+}
